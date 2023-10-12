@@ -64,7 +64,7 @@ a {
     flex-direction: column;
     position: relative;
     background: #e6f0ff;
-    height: 100vh;
+    height: calc(100vh - 90px);
 }
 
 .navbar {
@@ -143,6 +143,7 @@ a {
 }
 
 .hero-img {
+    max-height: 95%;
     position: absolute;
     bottom: 0;
     right: calc((100vw - 1110px) / 2 - 100px);
