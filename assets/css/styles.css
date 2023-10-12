@@ -610,6 +610,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    background: #f9f9f9;
     width: 28px;
     height: 28px;
     border-radius: 5px;
